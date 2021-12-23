@@ -29,66 +29,20 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-	<!-- <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]][product-url]
-This project is a detailed comparison between the common Sentiment Analysis approaches: Rule-Based VADER Sentimentl Analysis Tool, Naive Bayes Classifier, and Deep Learning LSTM. In separate notebooks, I provide the sample codes for running Sentiment Analysis using the [Sentiment140](https://www.kaggle.com/kazanova/sentiment140) data set. 
+We were able to devise regression models that, given the country and its MPOWER (national tobacco prevention efforts metric) scores, predicts population tobacco consumption to at least R2 = 0.92. Each model represents a cluster of countries. Region, or specifically country, seems to weigh into the changes in tobacco consumption with respect to MPOWER, as the score was R2 = 0.17 without. When we cluster all the countries, we’re able to increase this value to above 0.92 for each cluster.
 
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
-
-* [Python](https://www.python.org/)
-* [NLTK](https://www.nltk.org/)
-* [VADER](https://github.com/cjhutto/vaderSentiment)
-* [Keras](https://keras.io/about/)
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-<!-- This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps. -->
-
-The IPython notebooks have been provided. A supplementary article was written - check it out [here][product-url]. 
-
-### Prerequisites
-
-<!-- This is an example of how to list things you need to use the software and how to install them. -->
-* Python
-* Natural Language Toolkit
-* TensorFlow
-* Keras
-* VADER Sentiment Analysis Tool
-* scikit-learn
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/h1yung/Citadel_PredictingTobaccoConsumption.git
-   ```
-2. Install pip - package installer for Python
-   [here](https://pip.pypa.io/en/stable/installing/)
-3. Install Python packages
-   ```sh
-   pip install vaderSentiment
-   pip install nltk
-
-   ```
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
+1. Using Google Colab, load your data and ipynb notebook onto Google Drive.
+2. Adjust the file paths for reading in csv files according to where you store them in the Drive.
+3. Use the models generated in the ipynb notebook.
 
 <!-- CONTACT -->
 ## Contact
@@ -96,13 +50,6 @@ The IPython notebooks have been provided. A supplementary article was written - 
 Daniel Park - [@h1yung][linkedin-url] - h1yungpark@gmail.com
 
 Project Link: [https://github.com/h1yung/Citadel_PredictingTobaccoConsumption](https://github.com/h1yung/Citadel_PredictingTobaccoConsumption)
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [Kaggle](https://www.kaggle.com/kazanova/sentiment140)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
