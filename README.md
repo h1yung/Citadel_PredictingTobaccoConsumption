@@ -18,6 +18,8 @@
     Entry for the Citadel Central Datathon
     <br />
     <a href="https://github.com/h1yung/Citadel_PredictingTobaccoConsumption/blob/main/citadel_datathon.pdf">Paper</a>
+    ·
+    <a href="https://github.com/h1yung/Citadel_PredictingTobaccoConsumption/blob/main/datathon.ipynb">Code</a>
   </p>
 </p>
 
